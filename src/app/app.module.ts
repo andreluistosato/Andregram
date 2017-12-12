@@ -15,16 +15,10 @@ import { PhotosPage } from '../pages/photos/photos';
 import { SendPhotoPage } from '../pages/send-photo/send-photo';
 import { ProfilePage } from '../pages/profile/profile';
 import { TakePicturePage } from '../pages/take-picture/take-picture';
-// import { ShowMapPage } from '../pages/show-map/show-map';
+import { ShowMapPage } from '../pages/show-map/show-map';
 
 export const environment = {
   firebase: {
-    apiKey: "AIzaSyDAOdXTodJroUXBm1lS8Y2W_uC3zDFX428",
-    authDomain: "andregram-94e6c.firebaseapp.com",
-    databaseURL: "https://andregram-94e6c.firebaseio.com",
-    projectId: "andregram-94e6c",
-    storageBucket: "andregram-94e6c.appspot.com",
-    messagingSenderId: "371170786213"
   }
 };
 
@@ -38,7 +32,7 @@ export const environment = {
     SendPhotoPage,
     ProfilePage,
     TakePicturePage,
-    //ShowMapPage
+    ShowMapPage
   ],
   imports: [
     BrowserModule,
@@ -57,7 +51,7 @@ export const environment = {
     SendPhotoPage,
     ProfilePage,
     TakePicturePage,
-    //ShowMapPage
+    ShowMapPage
   ],
   providers: [
     StatusBar,

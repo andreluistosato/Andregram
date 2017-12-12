@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { NavController, ModalController } from 'ionic-angular';
-
 import { PhotosPage } from '../photos/photos';
 import { TakePicturePage } from '../take-picture/take-picture';
 import { ProfilePage } from '../profile/profile';
